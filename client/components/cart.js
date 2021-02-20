@@ -175,6 +175,7 @@ const Cart = ({
                 token={(token, addresses) =>
                   checkout(cart.items, auth.id, token, addresses)
                 }
+                // ideally not here but it's ok I guess I can just make process.env variable??
                 stripeKey="pk_test_51IN2VKD8lNSCo6wUxUrYGDuMoUX3GdUYryFSDFMXcnbr0fKI6q1IxrKXSQsXz8qDW2nk3ryDAfWqZoxHeTrxI9oY00qWfu6ew5"
                 amount={cart.total * 100}
                 billingAddress
