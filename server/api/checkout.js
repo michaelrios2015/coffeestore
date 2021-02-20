@@ -32,6 +32,8 @@ router.put("/:uid/:cartId", async (req, res, next) => {
 })
 
 router.post("/session", async (req, res, next) => {
+    // console.log('-----------------------------------------------------');
+    // console.log(process.env.STRIPE_SECRET_KEY);
     try {
         const {token, total} = req.body
 

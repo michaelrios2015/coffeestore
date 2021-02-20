@@ -175,7 +175,7 @@ const Cart = ({
                 token={(token, addresses) =>
                   checkout(cart.items, auth.id, token, addresses)
                 }
-                stripeKey="pk_test_51ILK1lLfvWrZDmuZMXaRPM2DZJTsiWZCLF0kN6XuqF9jMLq5eYjh59Vaqvr1XshlKGPRbF2Q1PRxFv1G72IZBCpf000VL6GWuC"
+                stripeKey="pk_test_51IN2VKD8lNSCo6wUxUrYGDuMoUX3GdUYryFSDFMXcnbr0fKI6q1IxrKXSQsXz8qDW2nk3ryDAfWqZoxHeTrxI9oY00qWfu6ew5"
                 amount={cart.total * 100}
                 billingAddress
                 shippingAddress
